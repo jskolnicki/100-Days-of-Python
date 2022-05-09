@@ -1,15 +1,14 @@
 from sqlite3 import paramstyle
+from argon2 import Parameters
 import requests
 
-params =  {"amount": 10, "type": 'boolean'}
+parameters =  {"amount": 10, "type": 'boolean'}
 
-
-response = requests.get("https://api.sunrise-sunset.org/json", params=CITY)
-
+response = requests.get("https://opentdb.com/api.php", params= parameters)
 response.raise_for_status()
-
 data=response.json()
 
+question_data = data['results']
 
 # question_data = [
 #     {
