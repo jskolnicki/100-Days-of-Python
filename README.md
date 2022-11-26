@@ -1,5 +1,5 @@
 # 100-Days-of-Python
-My progress throughout the 100 Days of Python Bootcamp on Udemy by Angela Yu
+My progress throughout the 100 Days of Python Bootcamp on Udemy -- instructor: Angela Yu
 
 This course is designed to provide a foundational understanding of Python. I realize it's easy to get away with copying and pasting solutions that the videos give so, to challenge myself, I add my own little twist to many of the coding challenges along the way.
 
