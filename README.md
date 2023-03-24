@@ -1,7 +1,7 @@
 # 100-Days-of-Python
 My progress throughout the 100 Days of Python Bootcamp on Udemy -- instructor: Angela Yu
 
-This course is designed to provide a foundational understanding of Python. I realize it's easy to get away with copying and pasting solutions that the videos give so, to challenge myself, I add my own little twist to many of the coding challenges along the way.
+This course is designed to provide a foundational understanding of Python. To further challenge myself along the course, I've added additional steps or twists to some of the coding challenges along the way.
 
 Examples include:
 
@@ -26,3 +26,5 @@ Day 36 - Future to-do: Get stock data through API and then send a text message a
 Day 37 - Uses the pixela API to create habit tracking. Future to-do: automate this to run when I do something that I want to track
 
 Day 38 - Used my own bearer token on the Sheety API getting info from the Nutritionix API
+
+Day 39 and 40 - Flight Club capstone project. Finds good flight deals. TODO: Have Twilio API send a message for specified good deals.

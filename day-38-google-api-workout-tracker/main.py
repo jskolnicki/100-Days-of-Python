@@ -8,8 +8,8 @@ WEIGHT_KG = 87
 HEIGHT_CM = 188
 AGE = 28
 
-APP_ID = os.environ["PERSONAL_SHEETY_APP_ID"]
-APP_KEY = os.environ["PERSONAL_SHEETY_API_KEY"]
+APP_ID = os.environ["PERSONAL_NUTRITIONIX_APP_ID"]
+APP_KEY = os.environ["PERSONAL_NUTRITIONIX_API_KEY"]
 SHEETY_BEARER_TOKEN = os.environ["PERSONAL_SHEETY_BEARER_TOKEN"]
 
 bearer_headers = {'Authorization': SHEETY_BEARER_TOKEN}
@@ -24,7 +24,7 @@ time = datetime.strftime(datetime.now(), '%X')
 
 headers = {
     "x-app-id": APP_ID,
-    "x-app-key": API_KEY,
+    "x-app-key": APP_KEY,
 }
 
 parameters = {
@@ -56,3 +56,4 @@ for exercise in result["exercises"]:
     }
 
     sheet_response = requests.post(sheet_endpoint, json=sheet_inputs, headers=bearer_headers)
+
