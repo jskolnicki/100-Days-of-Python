@@ -11,8 +11,8 @@ from csv import reader
 
 os.chdir(os.path.dirname(__file__))
 
-my_email = "jareds.automated.email@gmail.com"
-password = "abcdefg123()"
+my_email = os.environ["PERSONAL_EMAIL_AUTOMATED_ACCOUNT"]
+password = os.environ["PERSONAL_EMAIL_AUTOMATED_PASSWORD"]
 
 # 1. Update the birthdays.csv
 
